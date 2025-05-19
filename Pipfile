@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+python-dotenv = "*"
+newspaper3k = "*"
+lxml-html-clean = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
